@@ -1,3 +1,3 @@
 # Documentation
 
-Link to documentations and other ressources
+Link to documentations and other resources
