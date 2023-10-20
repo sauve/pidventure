@@ -3,13 +3,13 @@ LDFLAGS = -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi
 
 SOURCES = main.cpp vkapp.cpp ovk.cpp
 
-VulkanTest: main.cpp
-	g++ $(CFLAGS) -o VulkanTest $(SOURCES) $(LDFLAGS)
+Pidventure: main.cpp
+	g++ $(CFLAGS) -o Pidventure $(SOURCES) $(LDFLAGS)
 
 .PHONY: test clean
 
-test: VulkanTest
-	./VulkanTest
+test: Pidventure
+	./Pidventure
 
 clean:
-	rm -f VulkanTest
+	rm -f Pidventure
